@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-29T11:52:53 IST" name="Default suite" finished-at="2023-05-29T11:53:32 IST" duration-ms="38462">
+    <groups>
+      <group name="errorValidate">
+        <method signature="ErrorValidations.loginValidation(java.util.HashMap)[pri:0, instance:hariKrishna.tests.ErrorValidations@3cebbb30]" name="loginValidation" class="hariKrishna.tests.ErrorValidations"/>
+      </group> <!-- errorValidate -->
+    </groups>
+    <test started-at="2023-05-29T11:52:53 IST" name="Default test" finished-at="2023-05-29T11:53:32 IST" duration-ms="38462">
+      <class name="hariKrishna.tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:hariKrishna.tests.ErrorValidations@3cebbb30]" started-at="2023-05-29T11:52:54 IST" name="launchApplication" finished-at="2023-05-29T11:53:14 IST" duration-ms="19907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginValidation(java.util.HashMap)[pri:0, instance:hariKrishna.tests.ErrorValidations@3cebbb30]" started-at="2023-05-29T11:53:14 IST" name="loginValidation" data-provider="getData" finished-at="2023-05-29T11:53:15 IST" duration-ms="1155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=A@s12345769, email=hk@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:hariKrishna.tests.ErrorValidations@3cebbb30]" started-at="2023-05-29T11:53:15 IST" name="close" finished-at="2023-05-29T11:53:18 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:hariKrishna.tests.ErrorValidations@3cebbb30]" started-at="2023-05-29T11:53:18 IST" name="launchApplication" finished-at="2023-05-29T11:53:29 IST" duration-ms="11024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginValidation(java.util.HashMap)[pri:0, instance:hariKrishna.tests.ErrorValidations@3cebbb30]" started-at="2023-05-29T11:53:29 IST" name="loginValidation" data-provider="getData" finished-at="2023-05-29T11:53:30 IST" duration-ms="1131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=A@s12345689, email=hk@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:hariKrishna.tests.ErrorValidations@3cebbb30]" started-at="2023-05-29T11:53:30 IST" name="close" finished-at="2023-05-29T11:53:32 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- hariKrishna.tests.ErrorValidations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
